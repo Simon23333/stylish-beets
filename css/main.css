@@ -2,29 +2,41 @@ html {
   padding: 0;
   margin: 0;
   background-color: #c9b5ab;
-  font-family: "PT Sans", sans-serif;
+  font-family: PT Serif;
   font-weight: normal;
   list-style-type: circle;
 }
- img {
+
+img {
   width: 100%;
 }
 
 h1 {
   font-size: 1.5rem;
-  ine-height: 1.5;
-  color: #3f1622;
-}
- ol {
-  font-size: 1.125rem;
   line-height: 1.5;
-  color: #222;
+  color: #3f1622;
+  font-weight: bold;
 }
- ul {
+
+nav {
+  font-size: 1.125rem;
   line-height: 1.5;
   color: #8f2440;
 }
- a {
+
+li {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #222;
+}
+
+a {
   text-decoration: none;
 }
 
