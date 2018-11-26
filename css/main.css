@@ -1,90 +1,85 @@
 html {
-  background-color:#c9b5ab;
-  font-family: "PT Serif", serif;
-  font-size: 1.125rem;
-  font-weight: normal;
+  background-color: #c9b5ab;
+  line-height: 1.5;
   color: #222;
+  font-weight: normal;
+  border-width: 608px;
+  height: 1635px;
 }
 
-h1 h2 {
+h1 {
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
   font-size: 1.5rem;
+  color: #3f1622;
 }
 
-nav > ol > li {
-  font-family: PT Sans;
-  font-size: 1.125rem;
-  color: #8f2440;
+nav ol {
   list-style-type: none;
-  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
+}
+
+a,
+a:link {
+  color: #8f2440;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+figure {
+  font-size: .8rem;
+  font-style: italic;
+  text-align: center;
 }
 
 img {
   width: 100%;
 }
 
-figcaption {
-  font-style: italic;
-  text-align: center;
-}
-
-p:first-of-type {
+.days {
   font-size: 1.125rem;
   font-weight: bold;
 }
 
-.beet {
-  font-weight: bold;
+main p {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+  font-style: normal;
 }
 
-cite {
+main blockquote {
+  font-size: 1.5rem;
   font-style: italic;
+}
+
+main blockquote cite {
+  font-size: .8rem;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
   color: #3f1622;
-}
-
-.battle {
-  font-style: italic;
-}
-
-blockquote {
-  line-height: 1.5;
-  font-weight: bold;
-
-}
-
-blockquote > cite {
-  font-size: 0.8rem;
 }
 
 ol {
   list-style-type: lower-greek;
 }
 
-dt :first-child {
+.serving {
   font-style: italic;
 }
 
-dt {
+dl dt {
   font-weight: bold;
-  color: #3f1622;
-}
-
-ul > li {
-  font-size: 0.8rem;
-  list-style-type: circle;
 }
 
 footer {
-  font-size: 0.8rem;
-}
-
-a:hover {
-  color: #8f2440;
-  text-decoration: none;
-}
-
-a {
-  color: #8f2440;
-  text-decoration: none;
+  font-size: 1.125rem;
 }
